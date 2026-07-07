@@ -1,0 +1,14 @@
+{
+  "commands.devtools.give.success": "Gave %s to %s player(s).",
+  "item.devtools.lootr_dev_tool": "Lootr Dev Tool",
+  "itemGroup.devtools": "Dev Tools",
+  "message.devtools.lootr_dev_tool_missing_lootr": "Lootr is not loaded.",
+  "message.devtools.lootr_dev_tool_no_permission": "Creative mode or permission level 2 is required.",
+  "message.devtools.lootr_dev_tool_no_room": "No room to place a Lootr chest.",
+  "message.devtools.lootr_dev_tool_placed": "Placed Lootr chest with %s.",
+  "message.devtools.lootr_dev_tool_rerolled": "Rerolled Lootr chest with %s.",
+  "message.devtools.lootr_dev_tool_set": "Set Lootr chest to %s.",
+  "tooltip.devtools.lootr_dev_tool.place": "Right-click to place or retarget a Lootr chest.",
+  "tooltip.devtools.lootr_dev_tool.reroll": "Left-click a Lootr chest to reroll it.",
+  "tooltip.devtools.lootr_dev_tool.table": "Loot table: %s"
+}
