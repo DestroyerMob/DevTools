@@ -75,7 +75,7 @@ public class LootrDevToolItem extends Item {
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
         super.appendHoverText(stack, context, tooltip, flag);
-        tooltip.add(Component.translatable("tooltip.devtools.lootr_dev_tool.table", lootTable(stack)).withStyle(ChatFormatting.GOLD));
+        tooltip.add(Component.translatable("tooltip.devtools.lootr_dev_tool.table", lootTable(stack).toString()).withStyle(ChatFormatting.GOLD));
         tooltip.add(Component.translatable("tooltip.devtools.lootr_dev_tool.place").withStyle(ChatFormatting.GRAY));
         tooltip.add(Component.translatable("tooltip.devtools.lootr_dev_tool.reroll").withStyle(ChatFormatting.GRAY));
     }

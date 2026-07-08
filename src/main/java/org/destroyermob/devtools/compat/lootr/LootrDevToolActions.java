@@ -54,7 +54,7 @@ public final class LootrDevToolActions {
         if (resolve(level, clickedPos) != null) {
             resetLootrBlock(serverLevel, clickedPos, table, serverPlayer);
             playRerollEffects(serverLevel, clickedPos, serverPlayer);
-            send(serverPlayer, "message.devtools.lootr_dev_tool_set", table.location());
+            send(serverPlayer, "message.devtools.lootr_dev_tool_set", table.location().toString());
             return InteractionResult.SUCCESS;
         }
 
@@ -68,7 +68,7 @@ public final class LootrDevToolActions {
         serverLevel.setBlock(placePos, chestState, 11);
         configureLootrBlock(serverLevel, placePos, table, serverPlayer);
         playPlaceEffects(serverLevel, placePos, serverPlayer);
-        send(serverPlayer, "message.devtools.lootr_dev_tool_placed", table.location());
+        send(serverPlayer, "message.devtools.lootr_dev_tool_placed", table.location().toString());
         return InteractionResult.SUCCESS;
     }
 
@@ -102,7 +102,7 @@ public final class LootrDevToolActions {
         }
         resetLootrBlock(serverLevel, pos, table, serverPlayer);
         playRerollEffects(serverLevel, pos, serverPlayer);
-        send(serverPlayer, "message.devtools.lootr_dev_tool_rerolled", table.location());
+        send(serverPlayer, "message.devtools.lootr_dev_tool_rerolled", table.location().toString());
     }
 
     private static BlockPos placementPos(UseOnContext context) {
