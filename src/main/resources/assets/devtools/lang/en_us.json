@@ -1,4 +1,6 @@
 {
+  "commands.devtools.damage_debug.disabled": "Damage debug disabled.",
+  "commands.devtools.damage_debug.enabled": "Damage debug enabled.",
   "commands.devtools.give.success": "Gave %s to %s player(s).",
   "item.devtools.lootr_dev_tool": "Lootr Dev Tool",
   "itemGroup.devtools": "Dev Tools",

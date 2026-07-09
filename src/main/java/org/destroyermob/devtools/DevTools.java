@@ -26,6 +26,7 @@ public class DevTools {
         modEventBus.addListener(this::addCreativeTabContents);
         NeoForge.EVENT_BUS.addListener(LootrDevToolItem::handleLeftClick);
         NeoForge.EVENT_BUS.addListener(DevToolsCommands::register);
+        NeoForge.EVENT_BUS.addListener(DevToolsCommands::reportDamage);
     }
 
     private void addCreativeTabContents(BuildCreativeModeTabContentsEvent event) {
