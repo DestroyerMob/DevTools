@@ -1,6 +1,10 @@
 {
   "commands.devtools.damage_debug.disabled": "Damage debug disabled.",
   "commands.devtools.damage_debug.enabled": "Damage debug enabled.",
+  "commands.devtools.mob_vision_debug.disabled": "Mob vision debug disabled.",
+  "commands.devtools.mob_vision_debug.enabled": "Mob vision debug enabled.",
+  "commands.devtools.mob_vision_debug.legend": "Orange: normal detection. Cyan: sneaking detection. The ring is unavoidable close-range awareness.",
+  "commands.devtools.mob_vision_debug.missing_mobscombat": "Mob vision debug requires Mobs Combat.",
   "commands.devtools.give.success": "Gave %s to %s player(s).",
   "item.devtools.lootr_dev_tool": "Lootr Dev Tool",
   "itemGroup.devtools": "Dev Tools",
